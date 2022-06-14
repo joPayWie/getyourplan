@@ -1,0 +1,151 @@
+@font-face {
+    font-family: tt-commonsBold;
+    src: url(TT\ Commons\ Bold.otf);
+}
+
+@font-face {
+    font-family: tt-commonsRegular;
+    src: url(TT\ Commons\ Regular.otf);
+}
+
+@font-face{
+    font-family: tt-commonsMedium;
+    src: url(TT\ Commons\ Medium.otf);
+}
+
+@font-face{
+    font-family: tt-commonsExtraLight;
+    src: url(TT\ Commons\ ExtraLight.otf);
+}
+
+body{
+    background-color:#4C35E0;
+    height: 90vh;  
+}
+
+.everything{
+    display: flex;
+    flex-direction: column;
+    background-color:#4C35E0;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    color: #FAE5D9;	
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+h2{
+    font-family: tt-commonsExtraLight;
+    letter-spacing: 4px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+h1{
+    font-family: tt-commonsBold;
+    font-size: 60px;
+    margin-top: 3px;
+}
+
+.squares{
+    background-color:#4C35E0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.square{
+    display: flex;
+    height: 52.5vh;
+    width: 40vh;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 2;
+    justify-items: center;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 15px 15px rgba(69, 46, 199, 0.8);
+}
+
+.emoji{
+    height: 70px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #AAAAAA;
+    font-family: tt-commonsMedium;
+    margin: 15px 0px;
+    padding-inline-start: none;
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.square span{
+    font-size: 40px;
+    color: #E5BE63;
+    font-family: tt-commonsRegular;
+    margin-top: -5px;
+}
+
+.square h3{
+    color: #4C35E0;
+     font-family: tt-commonsRegular; 
+     font-size: 30px;
+     margin: 0px;
+     padding: 0px;
+}
+
+.square em{
+    font-family: tt-commonsBold;
+    font-size: 70px;
+    font-style: normal;
+}
+
+#popular{
+    font-size: 25px;
+    background-color: #FAE5D9;
+    color: #4C35E0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: thin;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 20px 45px;
+    margin-top: 0px;
+}
+
+.square-high{
+    height: 60vh;
+}
+
+a{
+    color: #4C35E0;
+    font-family: tt-commonsBold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.selected{
+    background-color: #4C35E0;
+    color: white;
+    padding: 15px 60px;
+}
